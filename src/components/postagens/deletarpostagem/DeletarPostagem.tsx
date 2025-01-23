@@ -97,7 +97,8 @@ function DeletarPostagem() {
                     </button>
                     <button 
                         className='w-full text-slate-100 bg-green-400 
-                        hover:bg-green-600 flex items-center justify-cente font-thin'
+                        hover:bg-green-600 flex items-center justify-center
+                         font-thin'
                         onClick={deletarPostagem}>
                         
                         {isLoading ?
